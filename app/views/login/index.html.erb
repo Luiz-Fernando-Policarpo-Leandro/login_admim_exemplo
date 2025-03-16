@@ -1,0 +1,19 @@
+
+<h2>Login Page</h2><br>    
+<div class="login">
+<form id="login" method="post" action= "<%= login_helper %>">    
+    <label><b>User Name     
+    </b>    
+    </label>    
+    <input type="text" name='email' id="email" value='<%= @usuario %>' placeholder="Enter Username">  
+    <br><br>    
+    <label><b>Password     
+    </b>    
+    </label>    
+    <input type="Password" name="password" id="password" value='<%= @senha %>' placeholder="Enter password">    
+    <br> <%= @mensagem %> <br>
+
+    <input type="submit" value="enviar">       
+  
+</form>     
+</div>    

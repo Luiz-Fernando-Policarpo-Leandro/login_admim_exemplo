@@ -47,7 +47,7 @@ Este projeto implementa um sistema de autenticação no Ruby on Rails utilizando
 
 ## Como Funciona
 
-0. caso seja a primeira vez, o usuario `admin@` será cirado com a senha `1234`
+0. caso seja a primeira vez, o usuario `admin@` será criado com a senha `1234`
 1. O usuário acessa a página de login e insere seu e-mail e senha.
 2. O sistema verifica as credenciais no banco de dados.
 3. Se forem válidas, um cookie seguro é criado para manter o login ativo.
